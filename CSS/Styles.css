@@ -4,35 +4,17 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2017-02-08, 09:53:42
+    Created on : 2017-02-07, 11:13:51
     Author     : Piotrek
 */
 
-
 body
 {
- background: url(img/backg.jpg) no-repeat center center fixed; 
+ background: url(../img/backg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;  
-}
-
-h1
-{
-color: wheat;
-font-family: Own;
-font-size: 40px;
-text-align: center;
-margin-left: auto;
-margin-right: auto;
-margin-top: 100px;
-}
-
-#nawigacja
-{
-   margin-top: 210px; 
-   text-align: center;
 }
 
 .css3button 
@@ -103,8 +85,41 @@ margin-top: 100px;
 		0px 1px 0px rgba(255,255,255,0.3);
 }
 
+h1
+{
+color:white;
+font-family: Own;
+text-align: center;
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#nawigacja
+{
+   margin-top: 210px; 
+   text-align: center;
+}
+
+#informacje
+{
+    text-align: center;
+    padding: 10px;
+    font-family: Own;
+    font-size: 20px;
+    font-style: oblique;
+    color: white;
+    width: 350px;
+    height: 300px;
+    border: 5px #0000cc ridge;
+   background: linear-gradient(135deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+    margin-left: auto;
+    margin-right: auto;   
+}
+
 @font-face 
 {  
     font-family: Own;  
-    src: url(fonts/font.ttf);
+    src: url(../fonts/font.ttf);
 }
+

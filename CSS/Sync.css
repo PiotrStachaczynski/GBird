@@ -14,12 +14,16 @@ and open the template in the editor.
     margin-top: 20px;
     width: 250px;
  background: linear-gradient(135deg, rgba(197,227,227,0) 0%,rgba(131,187,193,1) 100%);
+ font-family: Own;
+ color: burlywood;
 }
 
 .krotki
 {
     width: 30px;
    background: linear-gradient(135deg, rgba(197,227,227,0) 0%,rgba(131,187,193,1) 100%);
+   font-family: Own;
+   color: burlywood;
 }
 
 
@@ -35,6 +39,8 @@ textArea
 {
     width: 70px;
 background: linear-gradient(135deg, rgba(197,227,227,0) 0%,rgba(131,187,193,1) 100%);
+font-family: Own;
+color: burlywood;
 
 }
 
@@ -81,7 +87,7 @@ input[type=submit] {
 
 body
 {
- background: url(img/backg.jpg) no-repeat center center fixed; 
+ background: url(../img/backg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -176,5 +182,5 @@ margin-top: 20px;
 @font-face 
 {  
     font-family: Own;  
-    src: url(fonts/font.ttf);
+    src: url(../fonts/font.ttf);
 }

@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-$html = file_get_contents("sync.xhtml");       
+$html = file_get_contents("../HTML/async.xhtml");       
 echo $html;
 
 ?>

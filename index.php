@@ -1,7 +1,7 @@
 
 <?php
 
-$html = file_get_contents("start.xhtml");       
+$html = file_get_contents("HTML/start.xhtml");       
 echo $html;
  session_start();
      

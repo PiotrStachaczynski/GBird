@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-$html = file_get_contents("serwis.xhtml");       
+$html = file_get_contents("../HTML/sync.xhtml");       
 echo $html;
 
 ?>

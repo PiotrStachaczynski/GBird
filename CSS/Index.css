@@ -59,7 +59,7 @@ input[type=text]
     -webkit-border-radius: 5px;
     border-radius: 7px;
     background-color: gainsboro;
-    color: red;
+    color: blueviolet;
 }
 input[type=password] 
 {
@@ -73,7 +73,7 @@ input[type=password]
 
 body
 {
- background: url(img/backg.jpg) no-repeat center center fixed; 
+ background: url(../img/backg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
