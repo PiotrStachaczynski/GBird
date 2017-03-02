@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-02-07, 11:13:51
+    Author     : Piotrek
+*/
+
+body
+{
+ background: url(img/backg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+}
+
+.css3button 
+{
+	font-family: Own;
+	font-size: 20px;
+	color: darkred;
+	padding: 11px 25px;
+	background: -moz-linear-gradient(
+		top,
+		#dfe0a6 0%,
+		#ffffff 42%,
+		#87ffad);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#dfe0a6),
+		color-stop(0.42, #ffffff),
+		to(#87ffad));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #fa0d0d;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.5),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.css3button:hover 
+{
+	font-family: Own;
+	font-size: 20px;
+	color: darkslateblue;
+	padding: 11px 25px;
+	background: -moz-linear-gradient(
+		top,
+		#b082f5 0%,
+		#ffffff 42%,
+		#95a7c7);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#b082f5),
+		color-stop(0.42, #ffffff),
+		to(#95a7c7));
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 10px;
+	border: 1px solid #fa0d0d;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.7),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.5),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+h1
+{
+color:white;
+font-family: Own;
+text-align: center;
+font-size: 25px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#nawigacja
+{
+   margin-top: 210px; 
+   text-align: center;
+}
+
+#informacje
+{
+    text-align: center;
+    padding: 10px;
+    font-family: Own;
+    font-size: 20px;
+    font-style: oblique;
+    color: white;
+    width: 350px;
+    height: 300px;
+    border: 5px #0000cc ridge;
+   background: linear-gradient(135deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+@font-face 
+{  
+    font-family: Own;  
+    src: url(fonts/font.ttf);
+}
+
